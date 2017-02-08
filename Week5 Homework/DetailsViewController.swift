@@ -25,6 +25,8 @@ class DetailsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        // onLoad(?) Animation
         UIView.animate(withDuration: 0.3, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
             self.detailsTextView.alpha = 1
             self.view.layoutIfNeeded()
@@ -41,8 +43,8 @@ class DetailsViewController: UIViewController {
         self.detailsTextView.alpha = 0
         
         if let profile = self.profile {
-            let fullName: String = profile.firstName + " " + profile.lastName
             self.title = profile.firstName
+            let fullName: String = profile.firstName + " " + profile.lastName
             self.nameLabel.text = fullName
             self.detailsTextView.text = profile.details
             if let photo = profile.photo {

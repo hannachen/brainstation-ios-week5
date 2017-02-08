@@ -9,10 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // Animation settings
-    let animationDuration: TimeInterval = 0.25
-    let switchingInterval: TimeInterval = 3
-    
     // Outlets
     @IBOutlet var hannaThumbnailImageView: UIImageView!
     @IBOutlet var shaunThumbnailImageView: UIImageView!
