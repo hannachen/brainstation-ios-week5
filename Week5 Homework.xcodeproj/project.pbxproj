@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D45660F1E4BCCBA0067E1E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5D45660E1E4BCCBA0067E1E5 /* README.md */; };
 		5DB106C71E4982EC0014A89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB106C61E4982EC0014A89B /* AppDelegate.swift */; };
 		5DB106C91E4982EC0014A89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB106C81E4982EC0014A89B /* ViewController.swift */; };
 		5DB106CC1E4982EC0014A89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB106CA1E4982EC0014A89B /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D45660E1E4BCCBA0067E1E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5DB106C31E4982EC0014A89B /* Week5 Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week5 Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB106C61E4982EC0014A89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DB106C81E4982EC0014A89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5DB106DA1E4982EC0014A89B /* Week5 HomeworkTests */,
 				5DB106E51E4982EC0014A89B /* Week5 HomeworkUITests */,
 				5DB106C41E4982EC0014A89B /* Products */,
+				5D45660E1E4BCCBA0067E1E5 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +273,7 @@
 			files = (
 				5DB106F51E4983870014A89B /* Person.swift in Sources */,
 				5DB106C91E4982EC0014A89B /* ViewController.swift in Sources */,
+				5D45660F1E4BCCBA0067E1E5 /* README.md in Sources */,
 				5DB106C71E4982EC0014A89B /* AppDelegate.swift in Sources */,
 				5DB106F71E4983B70014A89B /* DetailsViewController.swift in Sources */,
 			);
@@ -522,6 +526,7 @@
 				5DB106ED1E4982EC0014A89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB106EE1E4982EC0014A89B /* Build configuration list for PBXNativeTarget "Week5 HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				5DB106F01E4982EC0014A89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB106F11E4982EC0014A89B /* Build configuration list for PBXNativeTarget "Week5 HomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				5DB106F31E4982EC0014A89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
